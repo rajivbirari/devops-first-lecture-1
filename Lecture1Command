@@ -1,0 +1,45 @@
+    1  git --version
+    2  mkdir myFirstProject
+    3  cd myFirstProject/
+    4  git --version
+    5  git status
+    6  clear
+    7  .git
+    8  git init
+    9  git status
+   10  ls -a
+   11  git config --global user.name "Rajiv Birari"
+   12  git config --global user.email "rajiv.birari@global.ntt"
+   13  ls
+   14  git config --global --list
+   15  git config --global core.editor vi
+   16  git config --global --list
+   17  git config --global help.autocorrect 1
+   18  ls -d
+   19  ls -a
+   20  git config --global --list
+   21  ls
+   22  echo "Rajiv Birari 1 file" > README.txt
+   23  ls
+   24  git status
+   25  git add README.txt
+   26  git status
+   27  git commit -m "Rajiv Birari 1 commit"
+   28  git status
+   29  echo "Rajiv Birari 2nd line file" >> README.txt
+   30  git status
+   31  git add README.txt 
+   32  git status
+   33  git commit -m "Rajiv Birari 2 commit"
+   34  git status
+   35  git log
+   36  cat README.txt 
+   37  echo "Rajiv Birari 3nd line file" > README.txt
+   38  git status
+   39  git add README.txt
+   40  git status
+   41  git commit -m "Rajiv Birari 3 commit"
+   42  git status
+   43  cat README.txt 
+   44  history
+   45  history > Lecture1Command
